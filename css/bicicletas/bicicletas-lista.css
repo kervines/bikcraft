@@ -17,6 +17,10 @@
   overflow-x: auto;
 }
 
+#bicicleta .bicicletas-listas ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-listas li {
   min-width: 280px;
 }
@@ -36,7 +40,7 @@
 }
 
 .bicicletas-listas h3::before {
-  content: "";
+  content: '';
   background-color: var(--cor-p1);
   height: 8px;
   width: 12px;
