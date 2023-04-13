@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="contato">
@@ -41,20 +42,20 @@
       </div>
     </div>
 
-    <div class="contato container">
+    <div class="contato container" data-anime="100">
       <section class="contato-dados" aria-label="Endereço">
-        <h2 class="font-1-m cor-0">Loja Online</h2>
-        <div class="contato-endereco font-2-s cor-4">
+        <h2 class="font-1-m cor-0" data-anime="200">Loja Online</h2>
+        <div class="contato-endereco font-2-s cor-4" data-anime="300">
           <p>Rua Ali Perto, 43</p>
           <p>Rio de Janeiro - RJ</p>
           <p>Brasil - Terra - Via Láctea</p>
         </div>
-        <address class="contato-meios font-2-s cor-4">
+        <address class="contato-meios font-2-s cor-4" data-anime="400">
           <a href="mailto: contato@bikcraft.com">contato@bikcraft.com</a>
           <a href="mailto: assistencia@bikcraft.com">assistencia@bikcraft.com</a>
           <a href="tel:+5511999999999">+55 11 99999-9999</a>
         </address>
-        <div class="contato-redes">
+        <div class="contato-redes" data-anime="500">
           <a href="./">
             <img src="./img/redes/instagram-p.svg" alt="Instagram">
           </a>
@@ -66,7 +67,7 @@
           </a>
         </div>
       </section>
-      <section aria-label="Formulario" class="contato-formulario">
+      <section aria-label="Formulario" class="contato-formulario" data-anime="600">
         <form class="form" action="./contato.html">
           <div>
             <label for="nome">Nome</label>
@@ -161,4 +162,6 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>

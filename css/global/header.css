@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   gap: 40px;
 
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-weight: 400;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .header-menu a:after {
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   width: 0%;
@@ -38,7 +38,8 @@
   position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 
